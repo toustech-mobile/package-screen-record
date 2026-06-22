@@ -12,8 +12,8 @@ A new Flutter plugin for record the screen.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'flutter_screen_recording/Sources/flutter_screen_recording/**/*'
+  s.public_header_files = 'flutter_screen_recording/Sources/flutter_screen_recording/**/*.h'
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '10.0'
