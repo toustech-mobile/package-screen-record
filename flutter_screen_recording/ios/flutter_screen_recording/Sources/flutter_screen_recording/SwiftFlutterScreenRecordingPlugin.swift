@@ -3,6 +3,7 @@ import UIKit
 import ReplayKit
 import AVFoundation
 
+@objc(FlutterScreenRecordingPlugin)
 public class SwiftFlutterScreenRecordingPlugin: NSObject, FlutterPlugin {
     
     let recorder = RPScreenRecorder.shared()
