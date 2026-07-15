@@ -29,11 +29,12 @@ android {
         disable 'InvalidPackage'
     }
     compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
     android {
         kotlinOptions {
-            jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+            jvmTarget = '17'
         }
     }
 }
